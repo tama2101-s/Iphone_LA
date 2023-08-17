@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     var number: Int = 0
     
     @IBOutlet var label: UILabel!
+    @IBOutlet var background: UIImageView!
     
     
     override func viewDidLoad() {
@@ -22,10 +23,14 @@ class ViewController: UIViewController {
     func ifnumber(){
         if number > 10{
             label.textColor = UIColor.red
+            background.image = UIImage(named: "noon")
+            
         } else if number <= -10{
             label.textColor = UIColor.blue
+            background.image = UIImage(named: "night")
         }else{
             label.textColor = UIColor.black
+            background.image = UIImage(named: "sunrise")
         }
     }
     

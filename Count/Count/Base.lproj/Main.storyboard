@@ -16,8 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="00004-832844442" translatesAutoresizingMaskIntoConstraints="NO" id="RoV-yb-4lS">
-                                <rect key="frame" x="-7" y="0.0" width="445" height="941"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sunrise" translatesAutoresizingMaskIntoConstraints="NO" id="Iyv-sD-h1e">
+                                <rect key="frame" x="-26" y="0.0" width="496" height="932"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GKE-JS-UqH">
@@ -61,6 +61,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="background" destination="Iyv-sD-h1e" id="YqS-Ai-Dvt"/>
                         <outlet property="label" destination="GKE-JS-UqH" id="IgI-GG-P4a"/>
                     </connections>
                 </viewController>
@@ -70,7 +71,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="00004-832844442" width="720" height="1280"/>
+        <image name="sunrise" width="720" height="1280"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
