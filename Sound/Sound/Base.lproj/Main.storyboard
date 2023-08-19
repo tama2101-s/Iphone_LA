@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L0m-8P-iue">
-                                <rect key="frame" x="103" y="359" width="224" height="214"/>
+                                <rect key="frame" x="103" y="106" width="224" height="214"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="drumImage"/>
@@ -25,12 +25,23 @@
                                     <action selector="touchUpDrumButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="YkC-ig-mir"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="waN-rB-4im">
+                                <rect key="frame" x="103" y="359" width="224" height="214"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="pianoImage"/>
+                                <connections>
+                                    <action selector="touchDownPianoButton" destination="BYZ-38-t0r" eventType="touchDown" id="JB3-ce-0E0"/>
+                                    <action selector="touchUpPianoButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="YTE-Qh-cLT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.93498738739616449" green="0.64443049372002825" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outlet property="drumButton" destination="L0m-8P-iue" id="jhR-Sp-W5Y"/>
+                        <outlet property="pianoButton" destination="waN-rB-4im" id="1iE-ZT-T0p"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -40,5 +51,6 @@
     </scenes>
     <resources>
         <image name="drumImage" width="200" height="200"/>
+        <image name="pianoImage" width="200" height="200"/>
     </resources>
 </document>
