@@ -35,12 +35,23 @@
                                     <action selector="touchUpPianoButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="YTE-Qh-cLT"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iab-8t-o1L">
+                                <rect key="frame" x="103" y="641" width="224" height="214"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="guitarImage"/>
+                                <connections>
+                                    <action selector="touchDownGuitarButton" destination="BYZ-38-t0r" eventType="touchDown" id="4Vt-nU-9h9"/>
+                                    <action selector="touchUpGuitarButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="AXc-7X-mrz"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.93498738739616449" green="0.64443049372002825" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outlet property="drumButton" destination="L0m-8P-iue" id="jhR-Sp-W5Y"/>
+                        <outlet property="guitarButton" destination="iab-8t-o1L" id="lgN-te-HlR"/>
                         <outlet property="pianoButton" destination="waN-rB-4im" id="1iE-ZT-T0p"/>
                     </connections>
                 </viewController>
@@ -51,6 +62,7 @@
     </scenes>
     <resources>
         <image name="drumImage" width="200" height="200"/>
+        <image name="guitarImage" width="200" height="200"/>
         <image name="pianoImage" width="200" height="200"/>
     </resources>
 </document>
