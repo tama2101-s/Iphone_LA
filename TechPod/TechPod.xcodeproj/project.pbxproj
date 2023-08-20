@@ -7,29 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		437ADCFF2A9216200016A8A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437ADCFE2A9216200016A8A1 /* AppDelegate.swift */; };
-		437ADD012A9216200016A8A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437ADD002A9216200016A8A1 /* SceneDelegate.swift */; };
-		437ADD032A9216200016A8A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437ADD022A9216200016A8A1 /* ViewController.swift */; };
-		437ADD062A9216200016A8A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 437ADD042A9216200016A8A1 /* Main.storyboard */; };
-		437ADD082A9216210016A8A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 437ADD072A9216210016A8A1 /* Assets.xcassets */; };
-		437ADD0B2A9216210016A8A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 437ADD092A9216210016A8A1 /* LaunchScreen.storyboard */; };
-		437ADD132A9219140016A8A1 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437ADD122A9219140016A8A1 /* MemoViewController.swift */; };
+		437ADD212A92222F0016A8A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437ADD202A92222F0016A8A1 /* AppDelegate.swift */; };
+		437ADD232A92222F0016A8A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437ADD222A92222F0016A8A1 /* SceneDelegate.swift */; };
+		437ADD252A92222F0016A8A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437ADD242A92222F0016A8A1 /* ViewController.swift */; };
+		437ADD282A92222F0016A8A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 437ADD262A92222F0016A8A1 /* Main.storyboard */; };
+		437ADD2A2A9222300016A8A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 437ADD292A9222300016A8A1 /* Assets.xcassets */; };
+		437ADD2D2A9222300016A8A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 437ADD2B2A9222300016A8A1 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		437ADCFB2A9216200016A8A1 /* MemoPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		437ADCFE2A9216200016A8A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; wrapsLines = 0; };
-		437ADD002A9216200016A8A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		437ADD022A9216200016A8A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		437ADD052A9216200016A8A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		437ADD072A9216210016A8A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		437ADD0A2A9216210016A8A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		437ADD0C2A9216210016A8A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		437ADD122A9219140016A8A1 /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
+		437ADD1D2A92222F0016A8A1 /* TechPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		437ADD202A92222F0016A8A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		437ADD222A92222F0016A8A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		437ADD242A92222F0016A8A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		437ADD272A92222F0016A8A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		437ADD292A9222300016A8A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		437ADD2C2A9222300016A8A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		437ADD2E2A9222300016A8A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		437ADCF82A9216200016A8A1 /* Frameworks */ = {
+		437ADD1A2A92222F0016A8A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,73 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		437ADCF22A9216200016A8A1 = {
+		437ADD142A92222F0016A8A1 = {
 			isa = PBXGroup;
 			children = (
-				437ADCFD2A9216200016A8A1 /* MemoPad */,
-				437ADCFC2A9216200016A8A1 /* Products */,
+				437ADD1F2A92222F0016A8A1 /* TechPod */,
+				437ADD1E2A92222F0016A8A1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		437ADCFC2A9216200016A8A1 /* Products */ = {
+		437ADD1E2A92222F0016A8A1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				437ADCFB2A9216200016A8A1 /* MemoPad.app */,
+				437ADD1D2A92222F0016A8A1 /* TechPod.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		437ADCFD2A9216200016A8A1 /* MemoPad */ = {
+		437ADD1F2A92222F0016A8A1 /* TechPod */ = {
 			isa = PBXGroup;
 			children = (
-				437ADCFE2A9216200016A8A1 /* AppDelegate.swift */,
-				437ADD002A9216200016A8A1 /* SceneDelegate.swift */,
-				437ADD022A9216200016A8A1 /* ViewController.swift */,
-				437ADD042A9216200016A8A1 /* Main.storyboard */,
-				437ADD072A9216210016A8A1 /* Assets.xcassets */,
-				437ADD092A9216210016A8A1 /* LaunchScreen.storyboard */,
-				437ADD0C2A9216210016A8A1 /* Info.plist */,
-				437ADD122A9219140016A8A1 /* MemoViewController.swift */,
+				437ADD202A92222F0016A8A1 /* AppDelegate.swift */,
+				437ADD222A92222F0016A8A1 /* SceneDelegate.swift */,
+				437ADD242A92222F0016A8A1 /* ViewController.swift */,
+				437ADD262A92222F0016A8A1 /* Main.storyboard */,
+				437ADD292A9222300016A8A1 /* Assets.xcassets */,
+				437ADD2B2A9222300016A8A1 /* LaunchScreen.storyboard */,
+				437ADD2E2A9222300016A8A1 /* Info.plist */,
 			);
-			path = MemoPad;
+			path = TechPod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		437ADCFA2A9216200016A8A1 /* MemoPad */ = {
+		437ADD1C2A92222F0016A8A1 /* TechPod */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 437ADD0F2A9216210016A8A1 /* Build configuration list for PBXNativeTarget "MemoPad" */;
+			buildConfigurationList = 437ADD312A9222300016A8A1 /* Build configuration list for PBXNativeTarget "TechPod" */;
 			buildPhases = (
-				437ADCF72A9216200016A8A1 /* Sources */,
-				437ADCF82A9216200016A8A1 /* Frameworks */,
-				437ADCF92A9216200016A8A1 /* Resources */,
+				437ADD192A92222F0016A8A1 /* Sources */,
+				437ADD1A2A92222F0016A8A1 /* Frameworks */,
+				437ADD1B2A92222F0016A8A1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MemoPad;
-			productName = MemoPad;
-			productReference = 437ADCFB2A9216200016A8A1 /* MemoPad.app */;
+			name = TechPod;
+			productName = TechPod;
+			productReference = 437ADD1D2A92222F0016A8A1 /* TechPod.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		437ADCF32A9216200016A8A1 /* Project object */ = {
+		437ADD152A92222F0016A8A1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					437ADCFA2A9216200016A8A1 = {
+					437ADD1C2A92222F0016A8A1 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 437ADCF62A9216200016A8A1 /* Build configuration list for PBXProject "MemoPad" */;
+			buildConfigurationList = 437ADD182A92222F0016A8A1 /* Build configuration list for PBXProject "TechPod" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,56 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 437ADCF22A9216200016A8A1;
-			productRefGroup = 437ADCFC2A9216200016A8A1 /* Products */;
+			mainGroup = 437ADD142A92222F0016A8A1;
+			productRefGroup = 437ADD1E2A92222F0016A8A1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				437ADCFA2A9216200016A8A1 /* MemoPad */,
+				437ADD1C2A92222F0016A8A1 /* TechPod */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		437ADCF92A9216200016A8A1 /* Resources */ = {
+		437ADD1B2A92222F0016A8A1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				437ADD0B2A9216210016A8A1 /* LaunchScreen.storyboard in Resources */,
-				437ADD082A9216210016A8A1 /* Assets.xcassets in Resources */,
-				437ADD062A9216200016A8A1 /* Main.storyboard in Resources */,
+				437ADD2D2A9222300016A8A1 /* LaunchScreen.storyboard in Resources */,
+				437ADD2A2A9222300016A8A1 /* Assets.xcassets in Resources */,
+				437ADD282A92222F0016A8A1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		437ADCF72A9216200016A8A1 /* Sources */ = {
+		437ADD192A92222F0016A8A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				437ADD132A9219140016A8A1 /* MemoViewController.swift in Sources */,
-				437ADD032A9216200016A8A1 /* ViewController.swift in Sources */,
-				437ADCFF2A9216200016A8A1 /* AppDelegate.swift in Sources */,
-				437ADD012A9216200016A8A1 /* SceneDelegate.swift in Sources */,
+				437ADD252A92222F0016A8A1 /* ViewController.swift in Sources */,
+				437ADD212A92222F0016A8A1 /* AppDelegate.swift in Sources */,
+				437ADD232A92222F0016A8A1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		437ADD042A9216200016A8A1 /* Main.storyboard */ = {
+		437ADD262A92222F0016A8A1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				437ADD052A9216200016A8A1 /* Base */,
+				437ADD272A92222F0016A8A1 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		437ADD092A9216210016A8A1 /* LaunchScreen.storyboard */ = {
+		437ADD2B2A9222300016A8A1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				437ADD0A2A9216210016A8A1 /* Base */,
+				437ADD2C2A9222300016A8A1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		437ADD0D2A9216210016A8A1 /* Debug */ = {
+		437ADD2F2A9222300016A8A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		437ADD0E2A9216210016A8A1 /* Release */ = {
+		437ADD302A9222300016A8A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -284,7 +280,7 @@
 			};
 			name = Release;
 		};
-		437ADD102A9216210016A8A1 /* Debug */ = {
+		437ADD322A9222300016A8A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -292,7 +288,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MemoPad/Info.plist;
+				INFOPLIST_FILE = TechPod/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -303,7 +299,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.shota.tamachan.MemoPad;
+				PRODUCT_BUNDLE_IDENTIFIER = app.shota.tamachan.TechPod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -311,7 +307,7 @@
 			};
 			name = Debug;
 		};
-		437ADD112A9216210016A8A1 /* Release */ = {
+		437ADD332A9222300016A8A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -319,7 +315,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MemoPad/Info.plist;
+				INFOPLIST_FILE = TechPod/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -330,7 +326,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.shota.tamachan.MemoPad;
+				PRODUCT_BUNDLE_IDENTIFIER = app.shota.tamachan.TechPod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -341,25 +337,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		437ADCF62A9216200016A8A1 /* Build configuration list for PBXProject "MemoPad" */ = {
+		437ADD182A92222F0016A8A1 /* Build configuration list for PBXProject "TechPod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				437ADD0D2A9216210016A8A1 /* Debug */,
-				437ADD0E2A9216210016A8A1 /* Release */,
+				437ADD2F2A9222300016A8A1 /* Debug */,
+				437ADD302A9222300016A8A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		437ADD0F2A9216210016A8A1 /* Build configuration list for PBXNativeTarget "MemoPad" */ = {
+		437ADD312A9222300016A8A1 /* Build configuration list for PBXNativeTarget "TechPod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				437ADD102A9216210016A8A1 /* Debug */,
-				437ADD112A9216210016A8A1 /* Release */,
+				437ADD322A9222300016A8A1 /* Debug */,
+				437ADD332A9222300016A8A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 437ADCF32A9216200016A8A1 /* Project object */;
+	rootObject = 437ADD152A92222F0016A8A1 /* Project object */;
 }
