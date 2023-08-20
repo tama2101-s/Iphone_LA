@@ -13,6 +13,7 @@
 		437ADC662A91B9920016A8A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 437ADC642A91B9920016A8A1 /* Main.storyboard */; };
 		437ADC682A91B9930016A8A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 437ADC672A91B9930016A8A1 /* Assets.xcassets */; };
 		437ADC6B2A91B9930016A8A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 437ADC692A91B9930016A8A1 /* LaunchScreen.storyboard */; };
+		437ADC732A91D3B30016A8A1 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437ADC722A91D3B30016A8A1 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		437ADC672A91B9930016A8A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		437ADC6A2A91B9930016A8A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		437ADC6C2A91B9930016A8A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		437ADC722A91D3B30016A8A1 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				437ADC672A91B9930016A8A1 /* Assets.xcassets */,
 				437ADC692A91B9930016A8A1 /* LaunchScreen.storyboard */,
 				437ADC6C2A91B9930016A8A1 /* Info.plist */,
+				437ADC722A91D3B30016A8A1 /* ResultViewController.swift */,
 			);
 			path = Gacha;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				437ADC632A91B9920016A8A1 /* ViewController.swift in Sources */,
 				437ADC5F2A91B9920016A8A1 /* AppDelegate.swift in Sources */,
 				437ADC612A91B9920016A8A1 /* SceneDelegate.swift in Sources */,
+				437ADC732A91D3B30016A8A1 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
