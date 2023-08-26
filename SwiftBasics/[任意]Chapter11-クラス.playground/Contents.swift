@@ -1,5 +1,35 @@
 // 11.1 Mentorという名前のクラスを定義してください
 
+class Mentor{
+    
+    var firstName: String = ""
+    var lastName: String = ""
+    var mentorName: String = ""
+    var course: String = ""
+    var season: Int = 0
+    
+    init(firstName: String, lastName:String, mentorName: String, course: String, season:Int){
+        self.firstName = firstName
+        self.lastName = lastName
+        self.mentorName = mentorName
+        self.course = course
+        self.season = season
+    }
+    
+    
+    
+    func slackName(){
+        print("\(self.mentorName).\(self.lastName)")
+    }
+    
+}
+let mentor = Mentor(firstName: "", lastName: "", mentorName: "", course: "", season: 0)
+mentor.lastName = "tamaru"
+mentor.mentorName = "tamachan"
+
+mentor.slackName()
+
+
 
 /* 11.2 Chapter12で定義したMentorクラスに以下のプロパティを追加してください
     1. firstName

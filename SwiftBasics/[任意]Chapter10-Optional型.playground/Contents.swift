@@ -5,10 +5,8 @@ print(optionalInt)
 
 // 10.2 unwrappedNumberがnilの場合に初期値が10になるようにして、printしてください
 var unwrappedNumber: Int? = nil
-if unwrappedNumber == nil{
-    unwrappedNumber = 10
-}
-print(unwrappedNumber)
+let optionalnumber = unwrappedNumber ?? 10
+print(optionalnumber)
 
 // 10.3 if let文を使って　アンラップしてprintしてください
 
