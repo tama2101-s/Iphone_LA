@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		430E2EA12A99DA3D00899BA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430E2EA02A99DA3D00899BA0 /* AppDelegate.swift */; };
 		430E2EA32A99DA3D00899BA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430E2EA22A99DA3D00899BA0 /* SceneDelegate.swift */; };
-		430E2EA52A99DA3D00899BA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430E2EA42A99DA3D00899BA0 /* ViewController.swift */; };
+		430E2EA52A99DA3D00899BA0 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430E2EA42A99DA3D00899BA0 /* ItemViewController.swift */; };
 		430E2EA82A99DA3D00899BA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 430E2EA62A99DA3D00899BA0 /* Main.storyboard */; };
 		430E2EAA2A99DA3F00899BA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 430E2EA92A99DA3F00899BA0 /* Assets.xcassets */; };
 		430E2EAD2A99DA3F00899BA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 430E2EAB2A99DA3F00899BA0 /* LaunchScreen.storyboard */; };
@@ -19,13 +19,16 @@
 		430E2EBD2A99DC6900899BA0 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430E2EBB2A99DC6900899BA0 /* ItemTableViewCell.swift */; };
 		430E2EBE2A99DC6900899BA0 /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 430E2EBC2A99DC6900899BA0 /* ItemTableViewCell.xib */; };
 		430E2EC02A99E07900899BA0 /* NewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430E2EBF2A99E07900899BA0 /* NewItemViewController.swift */; };
+		430E2EC22A99FC7000899BA0 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430E2EC12A99FC7000899BA0 /* Category.swift */; };
+		430E2EC42A9A006500899BA0 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430E2EC32A9A006500899BA0 /* CategoryViewController.swift */; };
+		430E2EC62A9A062A00899BA0 /* NewCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430E2EC52A9A062A00899BA0 /* NewCategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		430E2E9D2A99DA3D00899BA0 /* RealmKakeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmKakeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		430E2EA02A99DA3D00899BA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		430E2EA22A99DA3D00899BA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		430E2EA42A99DA3D00899BA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		430E2EA42A99DA3D00899BA0 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
 		430E2EA72A99DA3D00899BA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		430E2EA92A99DA3F00899BA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		430E2EAC2A99DA3F00899BA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -34,6 +37,9 @@
 		430E2EBB2A99DC6900899BA0 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
 		430E2EBC2A99DC6900899BA0 /* ItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemTableViewCell.xib; sourceTree = "<group>"; };
 		430E2EBF2A99E07900899BA0 /* NewItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewController.swift; sourceTree = "<group>"; };
+		430E2EC12A99FC7000899BA0 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		430E2EC32A9A006500899BA0 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		430E2EC52A9A062A00899BA0 /* NewCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCategoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +76,7 @@
 			children = (
 				430E2EA02A99DA3D00899BA0 /* AppDelegate.swift */,
 				430E2EA22A99DA3D00899BA0 /* SceneDelegate.swift */,
-				430E2EA42A99DA3D00899BA0 /* ViewController.swift */,
+				430E2EA42A99DA3D00899BA0 /* ItemViewController.swift */,
 				430E2EA62A99DA3D00899BA0 /* Main.storyboard */,
 				430E2EA92A99DA3F00899BA0 /* Assets.xcassets */,
 				430E2EAB2A99DA3F00899BA0 /* LaunchScreen.storyboard */,
@@ -79,6 +85,9 @@
 				430E2EBB2A99DC6900899BA0 /* ItemTableViewCell.swift */,
 				430E2EBC2A99DC6900899BA0 /* ItemTableViewCell.xib */,
 				430E2EBF2A99E07900899BA0 /* NewItemViewController.swift */,
+				430E2EC12A99FC7000899BA0 /* Category.swift */,
+				430E2EC32A9A006500899BA0 /* CategoryViewController.swift */,
+				430E2EC52A9A062A00899BA0 /* NewCategoryViewController.swift */,
 			);
 			path = RealmKakeibo;
 			sourceTree = "<group>";
@@ -162,12 +171,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				430E2EA52A99DA3D00899BA0 /* ViewController.swift in Sources */,
+				430E2EA52A99DA3D00899BA0 /* ItemViewController.swift in Sources */,
+				430E2EC62A9A062A00899BA0 /* NewCategoryViewController.swift in Sources */,
 				430E2EA12A99DA3D00899BA0 /* AppDelegate.swift in Sources */,
 				430E2EC02A99E07900899BA0 /* NewItemViewController.swift in Sources */,
 				430E2EBD2A99DC6900899BA0 /* ItemTableViewCell.swift in Sources */,
+				430E2EC42A9A006500899BA0 /* CategoryViewController.swift in Sources */,
 				430E2EBA2A99DB3900899BA0 /* ShoppingItem.swift in Sources */,
 				430E2EA32A99DA3D00899BA0 /* SceneDelegate.swift in Sources */,
+				430E2EC22A99FC7000899BA0 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
