@@ -34,19 +34,19 @@ class NewCategoryViewController: UIViewController {
         let results = self.realm.objects(ToDoItem.self).filter("category == %@", selectCategory)
         let category_results = self.realm.objects(Category.self).filter("title == %@", categoryTextField.text)
         
-        if selectMode == "A"{
-            if category_results.count > 0{
-                let alert = UIAlertController(title: "重複エラー", message: "そのカテゴリーはすでに登録されています", preferredStyle: .alert)
-                let ok = UIAlertAction(title: "OK", style: .default){
-                    (action) in
-                    self.dismiss(animated: true)
-                }
-                alert.addAction(ok)
-                present(alert,animated: true, completion: nil)
-            }else{
-                createCategory(category: category)
+        if category_results.count > 0{
+            let alert = UIAlertController(title: "重複エラー", message: "そのカテゴリーはすでに登録されています", preferredStyle: .alert)
+            let ok = UIAlertAction(title: "OK", style: .default){
+                (action) in
                 self.dismiss(animated: true)
             }
+            alert.addAction(ok)
+            present(alert,animated: true, completion: nil)
+        }else if selectMode == "A"{
+            
+            createCategory(category: category)
+            self.dismiss(animated: true)
+            
             
         } else if selectMode == "E"{
             category.id = selectCategory.id
